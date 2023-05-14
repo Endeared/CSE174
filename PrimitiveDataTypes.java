@@ -9,7 +9,7 @@ public class PrimitiveDataTypes {
       lengthOfSide = 1.3;
       perimeter = numberOfSides * lengthOfSide;
       
-      System.out.println(perimeter);
+      System.out.println("The perimeter of the polygon is " + perimeter + ".");
       
    }
 }
