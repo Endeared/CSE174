@@ -3,7 +3,7 @@ public class Testing {
    
     double base = 3.0;
     double root = Math.sqrt(base);
-    System.out.println(root);
+    System.out.printf("With a base of %.2f, the root of said base is %.4f.", base, root);
   
   }
 }
