@@ -21,5 +21,7 @@ public class UserInput {
     String lastName = file.next();
     String className = file.next();
     System.out.printf("Your student number is " + studentNum + ". You are registered as " + firstName + " " + lastName + " under the class " + className + ".%n");
+    
+    file.close();
   }
 }
