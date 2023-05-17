@@ -1,8 +1,7 @@
-/** 
- * Feb, 2022
- * Author: YOUR NAME HERE
- * Computes the area of a trapazoid using two sets of values.
- */
+/* cse174 lab1pt1 - area checker
+   Ross Hamey
+   5/17/2023 */
+
 public class AreaChecker {
   public static void main(String[] args) {
     

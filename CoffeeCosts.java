@@ -22,32 +22,32 @@ public class CoffeeCosts {
     final float MEDIUM_PRICE = 3.65f;
     final float LARGE_PRICE = 4.15f;
     
-    // declaring small counts + small prints
+    // declaring small counts + output small prints
     int febCountSm = 60;
     int marCountSm = 68;
     int aprCountSm = 63;
     int smallTotalCount = febCountSm + marCountSm + aprCountSm;
-    float smallTotalAvgCost = (smallTotalCount * SMALL_PRICE / 3.0f);
+    float smallAvgCost = (smallTotalCount * SMALL_PRICE / 3.0f);
     System.out.println("Number of small coffees bought: " + smallTotalCount);
-    System.out.println("Average monthly price of buying small: $" + smallTotalAvgCost);
+    System.out.println("Average price of buying small: $" + smallAvgCost);
     
-    // declaring medium counts + medium prints
+    // declaring medium counts + output medium prints
     int febCountM = 43;
     int marCountM = 48;
     int aprCountM = 46;
     int mediumTotalCount = febCountM + marCountM + aprCountM;
-    float mediumTotalAvgCost = (mediumTotalCount / 3.0f * MEDIUM_PRICE);
+    float mediumAvgCost = (mediumTotalCount / 3.0f * MEDIUM_PRICE);
     System.out.println("Number of medium coffees bought: " + mediumTotalCount);
-    System.out.println("Average monthly price of buying medium: $" + mediumTotalAvgCost);
+    System.out.println("Average price of buying medium: $" + mediumAvgCost);
     
-    // declaring large counts + large prints
+    // declaring large counts + output large prints
     int febCountL = 28;
     int marCountL = 31;
     int aprCountL = 30;
     int largeTotalCount = febCountL + marCountL + aprCountL;
-    float largeTotalAvgCost = (largeTotalCount / 3.0f * LARGE_PRICE);
+    float largeAvgCost = (largeTotalCount / 3.0f * LARGE_PRICE);
     System.out.println("Number of large coffees bought: " + largeTotalCount);
-    System.out.println("Average monthly price of buying large: $" + largeTotalAvgCost);
+    System.out.println("Average price of buying large: $" + largeAvgCost);
     
   }
 }
