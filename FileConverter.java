@@ -41,7 +41,8 @@ public class FileConverter {
     double thirdNumScaled = thirdNum * scalar;
     double fourthNumScaled = fourthNum * scalar;
     
-    // printing results - right indent of 10 + display doubles to 3 decimals (#5)
+    // printing results - right indent of 10 + display doubles to
+    // 3 decimals (#5)
     System.out.printf("%10.3f%n", firstNumScaled);
     System.out.printf("%10.3f%n", secondNumScaled);
     System.out.printf("%10.3f%n", thirdNumScaled);
