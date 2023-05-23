@@ -1,6 +1,6 @@
 /* cse174 assignment1 - shift cipher
    Ross Hamey
-   5/19/2023 */
+   5/22/2023 */
    
 // i will preface this by saying... normally i would just use
 // an array / data structure to split a string into individual
@@ -56,7 +56,8 @@ public class ShiftCipher {
     // i tried just concatenating the chars alone but that did not work,
     // so i placed an empty string value in the concatenation instead
     // maybe a better way to do this, need to review data types (#4)
-    String encryptedString = "" + newCharFirst + newCharSecond + newCharThird + newCharFourth + newCharFifth;
+    String encryptedString = ("" + newCharFirst + newCharSecond + newCharThird
+        + newCharFourth + newCharFifth);
     
     // lastly, printing out the message to the user (#4)
     System.out.println("Your encrypted word is: " + encryptedString);
