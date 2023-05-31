@@ -1,17 +1,30 @@
+import java.util.*;
+
 public class Testing {
   public static void main(String[] args) {
    
-    double base = 3.0;
-    double root = Math.sqrt(base);
+    Scanner in = new Scanner(System.in);
+    int x = in.nextInt();
+    int y = in.nextInt();
     
-    double testOne = 1.0;
-    double testTwo = 5.44;
-    double testThree = 14.447;
-    
-    System.out.printf("With a base of %.2f, the root of said base is %.4f.%n", base, root);
-    System.out.printf("%6.2f%n", testOne);
-    System.out.printf("%6.2f%n", testTwo);
-    System.out.printf("%6.2f%n", testThree);
+    if ( x < 0 ) {
+        if ( y < 0 ) {
+            System.out.println("A");
+            System.out.println("B");
+        } else if ( y == 0 ) {
+            System.out.println("C");
+        } else {
+            System.out.println("D");
+        }
+    } else if ( x == 0 ) {
+        System.out.println("E");
+    } else {
+        if ( y % 2 == 0 ) {
+            System.out.println("F");
+        } else {
+            System.out.println("G");
+        }
+    }
     
   }
 }
