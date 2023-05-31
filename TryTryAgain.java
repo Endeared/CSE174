@@ -27,6 +27,9 @@ public class TryTryAgain {
     double maximum = Integer.MIN_VALUE;
     double average = 0;
     
+    // displaying our initial message
+    System.out.print("Please enter the name of the file: ");
+    
     // our do-while loop will repeat the program until we enter
     // a valid file name
     do {
@@ -35,7 +38,6 @@ public class TryTryAgain {
       // the rest of the program
       try {
         // grabbing file name and assigning it to file scanner
-        System.out.print("Please enter the name of the file: ");
         String inputFile = input.next();
         Scanner file = new Scanner(new File(inputFile));
         
@@ -78,9 +80,11 @@ public class TryTryAgain {
         // loop
         file.close();
         finished = true;
+        System.out.println();
         
       } catch (FileNotFoundException error) {
         System.out.println(error.getMessage());
+        System.out.print("Please enter a valid file name: ");
       } 
     } while (finished == false);
     
