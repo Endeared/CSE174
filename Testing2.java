@@ -1,17 +1,16 @@
+/* cse174 lab8 - you drive me arrayzy
+   Ross Hamey
+   6/1/2023 */
+
+// scanner import for our values
 import java.util.Scanner;
 
-public class Testing2 {
-  public static void main(String[] args) {
-          
-    int x = 1;
-    while (x <= 6) {
-        for (int i = 0; i == 0; i++) {
-            System.out.print("*");        //
-    
-    
-        }
-        x *= 2;
-    }
+public class Arrayzy {
 
+  public static void main(String[] args) {
   }
+
+  public static void printStatus(double carAMiles, double carBMiles) {
+  }
+  
 }
