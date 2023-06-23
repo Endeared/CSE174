@@ -1,2 +1,1 @@
-racecar racecar
-racecar racecar
+The quick brown fox jumps over the lazy dog
